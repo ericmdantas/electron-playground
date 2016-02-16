@@ -1,0 +1,22 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: url(bkgs/1.jpg);
+  background-size: cover;
+  color: gold;
+}
+
+#status {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  border-left: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+  background-color: gold;
+  font-weight: bold;
+  color: #333;
+}

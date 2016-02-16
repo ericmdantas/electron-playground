@@ -3,9 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <script>console.log(require('os').hostname)</script>
+    <h1>Yo!</h1>
+
+    <div id="status">
+      <p>rss: <span id="rss"></span></p>
+      <p>heapTotal: <span id="heapTotal"></span></p>
+      <p>heapUsed: <span id="heapUsed"></span></p>
+    </div>
+
+    <p id="r">!</p>
+
+    <button type="button" id="excl">!</button>
+
+    <script src="./fetcher.js"></script>
+    <script src="./bcker.js"></script>
+    <script src="./stats.js"></script>
   </body>
 </html>
