@@ -1,3 +1,3 @@
-var Xtorage = require('xtorage');
+"use strict";
 
-console.log(Xtorage);
+var loc = window.localStorage;
