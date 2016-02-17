@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ericmdantas/electron-playground/issues"
   },
-  "homepage": "https://github.com/ericmdantas/electron-playground#readme"
+  "homepage": "https://github.com/ericmdantas/electron-playground#readme",
+  "dependencies": {
+    "xtorage": "0.0.4"
+  }
 }

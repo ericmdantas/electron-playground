@@ -13,7 +13,7 @@ app.on('window-all-closed', () => {
 });
 
 app.on('ready', () => {
-  win = new BrowserWindow({width: 1200, height: 800, autoHideMenuBar: true});
+  win = new BrowserWindow({width: 1200, height: 800, autoHideMenuBar: true, icon: 'node.ico'});
 
   win.loadURL('file://' + __dirname + '/index.html');
 
