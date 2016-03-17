@@ -21,7 +21,7 @@ app.on('ready', () => {
     win = null;
   });
 
-  win.on('resize', (ev) => {
-
-  });
+  setInterval(() => {
+    win.reload();
+  }, 10000);
 });
