@@ -1,18 +1,19 @@
 "use strict";
 
-const app = require('app');
-const BrowserWindow = require('browser-window');
-
-let win = null;
+const electron = require('electron');
+const app = electron.app;
+const BrowserWindow = electron.BrowserWindow;
 
 app.on('ready', () => {
+  let win = null;
+
   win = new BrowserWindow({
     autoHideMenuBar: true,
     height: 700,
     width: 700
   });
 
-  win.loadUrl(`file:///${__dirname}/client/index.html`);
+  win.loadURL(`file:///${__dirname}/client/dev/index.html`);
 
   win.on('closed', () => {
     win = null;
